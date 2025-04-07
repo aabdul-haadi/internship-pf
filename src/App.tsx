@@ -25,7 +25,7 @@ function App() {
       title: "Tenant Registration Form",
       description: "Multi-step tenant form with validation for digitized tenant submission records",
       github: "https://github.com/aabdul-haadi/Sindh-Police---Tenant-System",
-      demo: "https://demo-link.com/tenant-registration"
+      demo: "https://sindh-police-tenant-system.vercel.app/"
     },
     {
       title: "MILAP",
@@ -40,19 +40,19 @@ function App() {
       title: "EarthOrbit Website",
       description: "Animated futuristic space exploration landing page using React, TailwindCSS, Framer Motion",
       github: "https://github.com/aabdul-haadi/Earth-Orbit",
-      demo: "https://demo-link.com/earthorbit"
+      demo: "https://earth-orbit-nine.vercel.app/"
     },
     {
       title: "Food Restaurant Website",
       description: "Modern responsive restaurant landing page",
       github: "https://github.com/aabdul-haadi/foodApp",
-      demo: "https://demo-link.com/restaurant"
+      demo: "https://food-website-kappa-puce.vercel.app/"
     },
     {
       title: "Interior Renovation Website",
       description: "Minimalist design with smooth motion for interior design services",
       github: "https://github.com/aabdul-haadi/Interior-design-website",
-      demo: "https://demo-link.com/interior"
+      demo: "https://interior-design-website-ashy.vercel.app/"
     }
   ];
 
