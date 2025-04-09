@@ -6,6 +6,10 @@ import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { Button } from './components/Button';
 import { ProjectCard } from './components/ProjectCard';
+import './index.css';
+
+
+
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -196,23 +200,24 @@ function App() {
                 <p className="text-gray-600 dark:text-gray-300 mb-8">
                   A React Native UI prototype for a public emergency alert system by Sindh Police
                 </p>
-                <div className="flex justify-center space-x-4">
-                  <Button
-                    href="https://github.com/aabdul-haadi/Safety-Alerts-System"
-                    icon={<Github className="h-5 w-5" />}
-                    text="View Code"
-                  />
-                  <Button
-                    href="https://demo-link.com/safety-alerts"
-                    icon={<ExternalLink className="h-5 w-5" />}
-                    text="Live Demo"
-                  />
-                  <Button
-                    href="https://docs.google.com/document/d/1jk08O1nm_lMFYWM61Fd7lj7ofLKpW4P_xWdmeGSBonE/edit?tab=t.0#heading=h.xagd6ndi00qj"
-                    icon={<FileText className="h-5 w-5" />}
-                    text="Documentation"
-                  />
-                </div>
+                <div className="flex flex-wrap justify-center space-x-4 space-y-4 sm:space-y-0">
+  <Button
+    href="https://github.com/aabdul-haadi/Safety-Alerts-System"
+    icon={<Github className="h-5 w-5" />}
+    text="View Code"
+  />
+  <Button
+    href="https://demo-link.com/safety-alerts"
+    icon={<ExternalLink className="h-5 w-5" />}
+    text="Live Demo"
+  />
+  <Button
+    href="https://docs.google.com/document/d/1jk08O1nm_lMFYWM61Fd7lj7ofLKpW4P_xWdmeGSBonE/edit?tab=t.0#heading=h.xagd6ndi00qj"
+    icon={<FileText className="h-5 w-5" />}
+    text="Documentation"
+  />
+</div>
+
               </div>
             </motion.div>
           </div>
